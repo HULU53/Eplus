@@ -1,0 +1,33 @@
+{
+    "name": "E+ | 答案读取与数据解析研究工具",
+    "short_name": "E+",
+    "description": "面向 e听说 / ETS100 的 Android 答案读取与数据解析研究工具。",
+    "lang": "zh-CN",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#f6f8fb",
+    "theme_color": "#0b1526",
+    "categories": ["utilities", "education"],
+    "icons": [
+        {
+            "src": "assets/eplus.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

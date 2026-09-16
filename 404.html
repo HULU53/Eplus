@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1526">
+    <meta name="robots" content="noindex">
+    <title>页面未找到 | E+</title>
+    <link rel="icon" type="image/svg+xml" href="assets/eplus.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" id="site-header">
+        <div class="nav-shell">
+            <a class="brand" href="./" aria-label="返回 E+ 首页">
+                <img src="assets/eplus.svg" width="42" height="42" alt="">
+                <span class="brand-copy">
+                    <strong>E+</strong>
+                    <small>ETS100 PLUS</small>
+                </span>
+            </a>
+            <nav class="primary-nav" aria-label="主导航">
+                <a class="nav-link is-active" href="./">首页</a>
+                <a class="nav-link nav-link-external" href="https://github.com/HULU53/Ets100_Plus/" target="_blank" rel="noreferrer">
+                    项目仓库
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M7 17 17 7M8 7h9v9"/>
+                    </svg>
+                </a>
+            </nav>
+            <div class="nav-meta" aria-label="项目信息">
+                <span class="version-pill"><i></i>v1.0.0</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="error-page">
+        <div class="error-shell">
+            <span class="error-code">ERROR 404 / PAGE NOT FOUND</span>
+            <h1>这个页面没有找到，<br><span>回首页继续探索。</span></h1>
+            <p>地址可能已经改变，或页面链接存在拼写错误。你可以返回 E+ 首页查看项目功能、读取模式和使用守则。</p>
+            <div class="error-actions">
+                <a class="button button-primary" href="./">
+                    返回 E+ 首页
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M5 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                </a>
+                <a class="button button-secondary" href="https://github.com/HULU53/Ets100_Plus/" target="_blank" rel="noreferrer">
+                    打开项目仓库
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M7 17 17 7M8 7h9v9"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="error-path">REQUESTED PATH: <span data-request-path>/</span></div>
+        </div>
+    </main>
+
+    <script>
+        document.querySelector("[data-request-path]").textContent = window.location.pathname;
+    </script>
+</body>
+</html>

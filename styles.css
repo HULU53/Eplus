@@ -1919,6 +1919,80 @@ svg {
     transform: translateY(0);
 }
 
+.error-page {
+    min-height: calc(100vh - 74px);
+    display: grid;
+    place-items: center;
+    padding: 144px 20px 80px;
+    background: #edf4fd;
+}
+
+.error-shell {
+    width: min(100%, 720px);
+    text-align: center;
+}
+
+.error-code {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 38px;
+    padding: 0 14px;
+    color: var(--blue-deep);
+    border: 1px solid #c5dbef;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.error-code::before {
+    content: "";
+    width: 18px;
+    height: 2px;
+    background: var(--orange);
+}
+
+.error-page h1 {
+    margin: 25px 0 0;
+    font-size: clamp(42px, 7vw, 76px);
+    font-weight: 900;
+    line-height: 1.08;
+}
+
+.error-page h1 span {
+    color: var(--blue);
+}
+
+.error-page p {
+    max-width: 580px;
+    margin: 24px auto 0;
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+.error-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.error-path {
+    margin-top: 42px;
+    padding: 13px 15px;
+    color: #7e8b9d;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.72);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    word-break: break-all;
+}
+
 .reveal {
     opacity: 0;
     transform: translateY(18px);
@@ -2082,6 +2156,11 @@ svg {
 
     .section {
         padding: 84px 0;
+    }
+
+    .error-page {
+        min-height: calc(100vh - 68px);
+        padding-top: 124px;
     }
 
     .section-heading {
@@ -2320,6 +2399,16 @@ svg {
 
     .section {
         padding: 72px 0;
+    }
+
+    .error-page {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .error-actions {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .section-heading h2,

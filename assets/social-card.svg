@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b1526"/>
+  <rect x="0" y="0" width="42" height="630" fill="#ff6b35"/>
+  <rect x="68" y="62" width="120" height="120" rx="28" fill="#2196f3"/>
+  <path fill="#ffffff" d="M106 102h9v44h-9z M106 102h31v9h-31z M106 120h24v9h-24z M106 138h31v9h-31z M140 94h16v7h-16z M144 90h7v16h-7z"/>
+  <text x="68" y="248" fill="#ffffff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="58" font-weight="800">E+</text>
+  <text x="68" y="318" fill="#ffffff" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="42" font-weight="800">答案读取与数据解析研究工具</text>
+  <text x="68" y="377" fill="#aebdce" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="24">云端 · Shizuku · 零宽字符直读 · Root</text>
+  <g transform="translate(68 446)">
+    <rect width="160" height="46" rx="23" fill="#17263b"/>
+    <text x="80" y="30" fill="#7fc0ff" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" font-weight="700">Android 8.0+</text>
+    <rect x="176" width="176" height="46" rx="23" fill="#17263b"/>
+    <text x="264" y="30" fill="#7fc0ff" text-anchor="middle" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" font-weight="700">GPL-3.0 开源</text>
+  </g>
+  <g transform="translate(790 84)">
+    <rect width="330" height="462" rx="46" fill="#111d31"/>
+    <rect x="12" y="12" width="306" height="438" rx="36" fill="#f5f7fb"/>
+    <rect x="124" y="25" width="82" height="17" rx="8.5" fill="#09101c"/>
+    <rect x="40" y="74" width="250" height="166" rx="24" fill="#0b1526"/>
+    <rect x="62" y="98" width="80" height="12" rx="6" fill="#51647f"/>
+    <rect x="62" y="128" width="182" height="22" rx="8" fill="#ffffff"/>
+    <rect x="62" y="168" width="130" height="16" rx="7" fill="#7fc0ff"/>
+    <rect x="62" y="204" width="206" height="7" rx="3.5" fill="#25364e"/>
+    <rect x="62" y="204" width="166" height="7" rx="3.5" fill="#2ecf9f"/>
+    <rect x="40" y="263" width="250" height="70" rx="18" fill="#ffffff" stroke="#dbe4ee"/>
+    <rect x="58" y="281" width="34" height="34" rx="10" fill="#e9f3ff"/>
+    <rect x="108" y="282" width="118" height="12" rx="6" fill="#28384f"/>
+    <rect x="108" y="304" width="82" height="9" rx="4.5" fill="#9aa8b9"/>
+    <circle cx="263" cy="298" r="12" fill="#17a673"/>
+    <path d="m258 298 3 3 6-7" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="40" y="347" width="250" height="70" rx="18" fill="#ffffff" stroke="#dbe4ee"/>
+    <rect x="58" y="365" width="34" height="34" rx="10" fill="#e9f3ff"/>
+    <rect x="108" y="366" width="96" height="12" rx="6" fill="#28384f"/>
+    <rect x="108" y="388" width="70" height="9" rx="4.5" fill="#9aa8b9"/>
+    <rect x="82" y="432" width="166" height="8" rx="4" fill="#dfe6ee"/>
+  </g>
+  <text x="1132" y="604" fill="#60728a" text-anchor="end" font-family="Consolas, monospace" font-size="16">hulu53.github.io/E_plus_website</text>
+</svg>

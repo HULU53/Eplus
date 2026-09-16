@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hulu53.github.io/E_plus_website/sitemap.xml
