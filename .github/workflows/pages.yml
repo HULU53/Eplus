@@ -31,7 +31,14 @@ jobs:
           test -f styles.css
           test -f script.js
           test -f 404.html
+          test -f api/app/config
+          test -f api/app/config.json
+          test -f api/app/current.txt
+          test -f api/app/changelog.md
+          cmp -s api/app/config api/app/config.json
+          grep -q '^## 1\.0\.0$' api/app/changelog.md
           node --check script.js
+          node -e "const fs=require('fs'); for (const file of ['api/app/config','api/app/config.json']) { const data=fs.readFileSync(file); if (data[0]===0xef && data[1]===0xbb && data[2]===0xbf) throw new Error(file + ' contains a UTF-8 BOM'); JSON.parse(data.toString('utf8')); }"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

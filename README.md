@@ -4,7 +4,7 @@
 
 ## 在线地址
 
-- 网站：https://hulu53.github.io/E_plus_website/
+- 网站：https://hulu53.github.io/Eplus/
 - 主项目：https://github.com/HULU53/Ets100_Plus/
 
 ## GitHub Pages 部署
@@ -26,10 +26,22 @@
 python -m http.server 8000
 ```
 
+## App 接口
+
+网站根目录下的 `api/app/` 提供 App 可直接读取的静态接口：
+
+- `https://hulu53.github.io/Eplus/api/app/config.json`：正式配置接口，GitHub Pages 会按 `application/json; charset=utf-8` 返回。
+- `https://hulu53.github.io/Eplus/api/app/config`：无扩展名兼容入口，内容与 `config.json` 完全一致，不在 JSON 前添加 BOM。
+- `https://hulu53.github.io/Eplus/api/app/current.txt`：公告正文，纯文本 Markdown。
+- `https://hulu53.github.io/Eplus/api/app/changelog.md`：更新日志，纯文本 Markdown，当前版本标题为 `## 1.0.0`。
+
+GitHub Pages 是纯静态托管，无法为无扩展名文件自定义响应头。需要严格校验 `application/json; charset=utf-8` 的客户端应使用 `config.json`，不检查响应头的客户端可以使用 `config`。所有接口均不需要登录，也没有验证码或人机验证。
+
 ## 文件结构
 
 - `index.html`：网站首页
 - `404.html`：GitHub Pages 自定义 404 页面
+- `api/app/`：App 配置、公告正文和更新日志接口
 - `styles.css`：全站响应式样式
 - `script.js`：模式切换、折叠卡片、滚动动画和复制反馈
 - `site.webmanifest`：网站应用清单

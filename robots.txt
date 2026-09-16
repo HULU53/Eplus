@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /api/
 
-Sitemap: https://hulu53.github.io/E_plus_website/sitemap.xml
+Sitemap: https://hulu53.github.io/Eplus/sitemap.xml

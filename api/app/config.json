@@ -1,0 +1,11 @@
+{
+  "isKillSwitchOn": false,
+  "noticeMessage": "欢迎使用 E+",
+  "announcementTitle": "2026 年 9 月公告",
+  "announcementMessage": "近期更新了云端模式与首页布局。",
+  "announcementUpdatedAt": "2026-09-16 20:30",
+  "announcementUrl": "https://hulu53.github.io/Eplus/api/app/current.txt",
+  "changelogTitle": "更新日志",
+  "changelogSummary": "修复问题并优化首页显示。",
+  "changelogUrl": "https://hulu53.github.io/Eplus/api/app/changelog.md"
+}
